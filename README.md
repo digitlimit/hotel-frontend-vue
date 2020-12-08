@@ -1,2 +1,2 @@
 # hotel-frontend-vue
-Hotel Management App
+This is a frontend for https://github.com/digitlimit/hotel
