@@ -1,7 +1,6 @@
 module.exports = {
-  preset: '@vue/cli-plugin-unit-jest/presets/no-babel',
-  "moduleFileExtensions": [ "js", "ts", "json", "vue" ],
+  preset: "@vue/cli-plugin-unit-jest",
   transform: {
-    '.*\\.(vue)$': '<rootDir>/node_modules/vue-jest',
-  },  
-}
+    "^.+\\.vue$": "vue-jest"
+  }
+};
